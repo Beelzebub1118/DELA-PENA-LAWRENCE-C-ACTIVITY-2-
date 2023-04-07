@@ -45,5 +45,53 @@ background-image: linear-gradient(rgba(0,0,0,0.5), transparent), linear-gradient
     
 }
 
+#blog {
+    margin-top: auto;
+    text-align: center;
+    padding: 5%;
+}
+
+#blog h2 {
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#blog div {
+    background-color: white;
+    padding: -5%;
+    border-radius: 10px;
+    width: 20%;
+    height: auto;
+    display: inline-block;
+    margin: 1%;
+    justify-content: center;
+   
+}
+
+#blog div img {
+   width: 100%;
+   height: auto;
+   margin-top: -30px;   
+}
+
+#blog div h3 {
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-left: 10%;
+    text-align: left;
+    font-size: x-large;
+}
+
+#blog div p {
+    text-align: justify;
+    margin-top: -5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    font-size: 14px;
+
+}
+
 
 
