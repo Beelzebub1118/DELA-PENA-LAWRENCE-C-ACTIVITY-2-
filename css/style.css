@@ -58,27 +58,29 @@ background-image: linear-gradient(rgba(0,0,0,0.5), transparent), linear-gradient
 }
 
 #blog div {
+   
     background-color: white;
     padding: -5%;
     border-radius: 10px;
     width: 20%;
-    height: auto;
+    height: 100%;
     display: inline-block;
-    margin: 1%;
+    margin: 0.5%;
     justify-content: center;
-   
+    
 }
 
 #blog div img {
    width: 100%;
-   height: auto;
-   margin-top: -30px;   
+   height: 100%;
+   margin-top: -40px;  
+
 }
 
 #blog div h3 {
     margin-top: 5%;
     padding-top: 5%;
-    padding-left: 10%;
+    padding-left: 6%;
     text-align: left;
     font-size: x-large;
 }
@@ -86,12 +88,41 @@ background-image: linear-gradient(rgba(0,0,0,0.5), transparent), linear-gradient
 #blog div p {
     text-align: justify;
     margin-top: -5%;
-    padding-left: 10%;
+    padding-left: 5%;
     padding-right: 10%;
     padding-bottom: 5%;
     font-size: 14px;
 
 }
 
+#blog div a {
+    padding-bottom: 15%;
+    display: block;
+    text-align: left;
+    color: gray;
+    text-decoration: none;
+    padding-left: 6%;
+}
 
+#blog div:nth-child(4) {
+    background-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-top: 1px solid;
+}
 
+#blog div:nth-child(4) img{
+    border-top: 1px solid black;
+}
+
+#blog div:nth-of-type(3) h3{
+    color: white;
+}
+
+#blog div:nth-of-type(3) p{
+    color: white;
+}
+
+#blog div:nth-of-type(3) a{
+    color: white;
+}
